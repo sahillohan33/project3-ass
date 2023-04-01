@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+/* ####################################    Navbar Styles  ##################################################       */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:31px 80px;
+    height:90px;
+    background-color: #000;
+}
+.grow{
+    flex-grow: 1;
+}
+img{
+    width:90px;
+    height:30px;
+}
+.line{
+    width:1px;
+    height:40px;
+    margin-left: 45px;
+    background: #fff;
+}
+.navitem{
+    display:flex;
+    align-items: center;
+    gap:60px;
+    color:#fff;
+    list-style: none;
+    font-weight: 600;
+    margin-left: 60px;
+    line-height: 24px;
+    font-size: 16px;
+}
+.logo ,.navitems{
+    cursor: pointer;
+}
+.button-primary{
+    border:none;
+    background: #ba0cc5;
+    color:#fff;
+    padding:5px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    line-height: 24px;
+    cursor: pointer;
+}
+/* ################################### Show Section Styles ################################## */
+.show{
+    background-image: url("../img/back.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 90vh;
+    background-position: center;
+    text-align: center;
+}
+.show-heading{
+    max-width: 800px;
+    color:#fff;
+    padding-top: 170px;
+    font-size: 70px;
+    line-height: 90px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 700;
+}
+.show-desc{
+    color:#fff;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+    margin: 0 auto;
+}
+.button-secondary{
+    border:none;
+    background: #ba0cc5;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 10px;
+    color:#fff;
+    padding:10px 20px;
+    margin-top: 60px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+}
